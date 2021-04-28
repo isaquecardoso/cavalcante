@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+
+main{
+	margin: 0 auto;
+	width: 1000px;
+}
+
+.container{
+	width: 100%;
+}
+
+.materia-noticia{
+	border-bottom: 1px solid #C2C2C2;
+}
+.titulo-materia{
+	text-align: center;
+	margin-top: -240px;
+	color: #fff;
+	margin-bottom: 150px;
+	font-weight: bold;
+	font-size: 2.4em;
+}
+
+.publicacao-conteudo {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.autor{
+	font-size: 1rem;
+	letter-spacing: -.01875rem;
+	color: #555;
+	font-weight: bold;
+	line-height: 0.5px;
+}
+
+.data-e-hora{
+	font-size: 0.8em;
+}
+
+.conteudo-materia{
+	margin-top: 30px;
+}

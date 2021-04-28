@@ -1,0 +1,474 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,600&display=swap');
+
+main {
+	margin: 0 auto;
+	width: 1000px;
+}
+
+.container {
+	width: 100%;
+}
+
+.col-100 {
+	width: 100%;
+}
+
+body{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.nav-top {
+    height: 30px;
+    padding: 2px 0;
+    text-align: center;
+    padding-right: 25px;
+	margin-top: -2px;
+	margin-right: 50px;
+}
+
+.icons {
+    padding-right: 8px;
+}
+
+.student-area {
+    background-color: #004587;
+    color: #fff;
+    width: 269px;
+    height: 32px;
+    left: 0;
+    top: 0;
+    vertical-align: top;
+    position: relative;
+    text-align: right;
+    border-radius: 0px 0px 6px 6px;
+    -webkit-border-radius: 0px 0px 6px 6px;
+    flex-basis: 100%;
+    max-width: 100%;
+    -ms-flex-preferred-size: 100%;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    -webkit-flex: 0 0 auto;
+    flex: 0 0 auto;
+    float: right;
+    margin-bottom: 10px;
+    padding-right: 22px;
+	margin-left: 15px;
+}
+
+.student-area a{
+    line-height: 30px;
+    text-align: center;
+    font-style: normal;
+	font-family: 'Open Sans', sans-serif;
+    font-size: 16px !important;
+    color: #fff;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+	text-decoration: none;
+}
+
+.logotype {
+    width: 188px;
+    height: 80px;
+    margin-left: 50px;
+    position: relative;
+	margin-top: -16px;
+}
+
+.form-control {
+    display: block;
+	width: 343px;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-top-left-radius: .25rem;
+	border-bottom-left-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin-left: 842px;
+    margin-top: -50px;
+}
+
+
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgba(13,110,253,.25);
+}
+
+
+[type=search] {
+    outline-offset: -2px;
+    -webkit-appearance: textfield;
+}
+
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.search {
+	margin-left: 48px;
+    margin-bottom: -25px;
+}
+
+.btn-search{
+	background-color: #0d6efd;
+	color: #fff;
+	display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-top-right-radius: .25rem;
+	border-bottom-right-radius: .25rem; 
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+	margin-left: 1185px;
+    margin-top: -64px;
+}
+
+.menu-secondary {
+    position: relative;
+    background-color: #032349;
+    width: 100%;
+    height: 55px;
+    z-index: 1;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.menu-secondary ul{
+    display: inline-flex;
+    list-style: none;
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.menu-secondary ul li a{
+	color: #FFFFFF;
+	display: inline-block;
+	text-decoration: none;
+	transition: background .4s;
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;	
+	margin-right: 25px;
+	text-transform: uppercase;
+}
+
+.menu-secondary ul li a:hover{
+	color: #DBDBDB;
+}
+
+.link{
+	padding-left: 5px;
+	font-size: 10px;
+}
+
+.sub-menu{
+	font-weight: lighter;
+	display: none;
+	width: auto;
+	top: 100%;
+	z-index: 2;
+}
+
+.menu-secondary ul li .sub-menu{
+	display: block;
+	position: absolute;
+	background-color: #021F32;
+}
+
+.menu-secondary ul li .sub-menu ul{
+	display: none;
+	margin: 10px;
+	padding-left: 5px;
+}
+
+.menu-secondary ul li .sub-menu ul li{
+	text-align: left;
+}
+
+.menu-secondary ul li .sub-menu ul li a{
+	font-weight: lighter;
+	font-size: small;
+	margin-bottom: 8px;
+}
+
+button.slick-prev{
+	font-size: 0;
+    border: none;
+    width: 25px;
+    height: 42px;
+    background-color: transparent;
+    position: absolute;
+    z-index: 10;
+    top: 39%;
+    left: 11px;
+}
+
+button.slick-next {
+    font-size: 0;
+    border: none;
+    width: 25px;
+    height: 42px;
+    background-color: transparent;
+    position: absolute;
+    z-index: 10;
+    top: 39%;
+    left: 11px;
+	margin-left: 97.3%;
+}
+
+.slider-principal {
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+.slick-dots li button{
+	font-size: 0px;
+	border: 2px solid #fff;
+	background-color: transparent;
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+}
+
+.slick-dots {
+	margin: 0 auto;
+	width: 38%;
+	position: absolute;
+	left: 620px;
+	top: 91%;
+}
+
+li.slick-active button{
+	background-color: #fff;
+	
+}
+
+.slick-dots li{
+	display: inline-flex;
+	padding-left: 10px;
+}
+
+.education {
+	display: table-cell;
+	margin-top: 60px;
+	margin-bottom: 100px;
+	width: 33.3%;
+}
+
+.education h2 {
+	color: #161616;
+	font-weight: bold;
+	text-align: center;
+}
+
+.education h2 a {
+	color: #161616;
+	text-decoration: none;
+}
+
+.education h2 a:hover {
+	font-weight: bold;
+	text-align: center;
+	color: #076CAC;
+}
+
+.col-3 {
+    text-align: center;
+    margin-left: 100px;
+    margin-bottom: 25px;
+    margin-top: 55px;
+}
+
+.title{
+	font-size: 32px;
+    font-weight: lighter;
+    text-align: center;
+    color: #898989;
+    letter-spacing: -1px;
+    margin-bottom: 0;
+    text-transform: lowercase;
+}
+
+.title strong{
+	font-weight: 600;
+    color: #4A8FD4;
+}
+
+.subtitle{
+	display: block;
+    text-align: center;
+    font-size: 18px;
+    color: #8b8b8b;
+    margin-bottom: 50px;
+}
+
+.top-news-p p {
+	color: #3E3E3E;
+	font-size: 18px;
+	line-height: 60px;
+	border-bottom: 0.5px solid #A5A5A5;
+}
+
+.top-news img {
+	cursor: pointer;
+	margin-left: auto;
+	border-radius: 150px;
+	padding-right: 15px;
+	vertical-align: middle;
+	overflow: hidden;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.top-news img:hover {
+	margin-left: auto;
+	border-radius: 150px;
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.top-news {
+	display: table-cell;
+	width: 33.3%;
+	height: auto;
+	position: relative;
+	border-style: none;
+}
+
+.h3-news {
+	color: #FFFFFF;
+	text-align: left;
+	font-size: medium;
+	margin-top: -230px;
+	margin-left: 15px;
+}
+
+.top-news a {
+	text-decoration: none
+}
+
+.btn-news {
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	border: 1px solid #4A8FD4;
+	padding: 10px;
+	cursor: pointer;
+	background-color: transparent;
+	margin-top: 180px;
+	font-size: x-small;
+	margin-left: 410px;
+	text-decoration: none;
+	margin-bottom: 55px;
+}
+
+.btn-news:hover {
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #FFFFFF;
+	padding: 10px;
+	cursor: pointer;
+	background-color: #4A8FD4;
+	margin-top: 115px;
+	font-size: x-small;
+	margin-left: 410px;
+	text-decoration: none;
+}
+
+.btn-news:focus {
+	box-shadow: 0 0 0 0;
+	outline: 0;
+	text-shadow: none;
+}
+
+.footer {
+	width: 100%;
+	height: auto;
+	background-color: #032349;
+	border-top: 1px solid #717171;
+}
+
+.logo-footer {
+	width: 218px;
+	height: 99px;
+	text-align: left;
+}
+
+.address-footer {
+	margin-top: -29px;
+	margin-left: 360px;
+	width: 300px;
+}
+
+.footer p {
+	text-align: left;
+	color: #FFFFFF;
+	margin-bottom: -24px;
+}
+
+.rs-footer {
+	font-size: 60px;
+	color: #FFFFFF;
+	padding-left: 15px;
+	padding-right: 5px;
+	margin-bottom: 36px;
+	margin-top: -116px;
+	display: inline-flex;
+}
+
+button.slick-prev, button.slick-next, .slick-dots li :focus{
+	box-shadow: 0 0 0 0;
+	outline: 0;
+	text-shadow: none;
+}
+
+.page-construction{
+	font-size: 40px;
+	margin-left: 459px;
+	margin-bottom: -166px;
+	width: 250.19px;
+	color: #4A8FD4;
+	font-weight: 500;
+	line-height: 1.1;
+}
+
+.error-pg {
+	margin-left: 200px;
+}
+
+.error-page{
+	margin-top: 70px;
+	margin-bottom: -15px;
+}
